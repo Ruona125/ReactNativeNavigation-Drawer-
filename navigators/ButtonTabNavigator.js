@@ -43,7 +43,7 @@ const About = ({ navigation }) => {
       <Text style={{ fontSize: 20, color: "#fff", fontWeight: "800" }}>
         About is here
       </Text>
-      <Button title="Go Back" onPress={() => navigation.navigation.goBack()} />
+      <Button title="Go Back" onPress={() => navigation.goBack()} />
     </View>
   );
 };
